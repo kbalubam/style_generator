@@ -1,0 +1,103 @@
+.globale{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+h1{
+    text-align: center;
+}
+.carreCouleur{
+    width: 500px;
+    height: 300px;
+    
+}
+.selector{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+.wrgb{
+    display: flex;
+}
+
+.w{
+    height: 40px;
+    width: 40px;
+    background-color: grey;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.r{
+    height: 40px;
+    width: 40px;
+    background-color: tomato;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-right: 10px;
+}
+.g{
+    height: 40px;
+    width: 40px;
+    background-color:green;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.b{
+    height: 40px;
+    width: 40px;
+    background-color:blue;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.solid{
+    height: 30px;
+    width: 40px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.dotted{
+    height: 30px;
+    width: 40px;
+    border: 3px dotted black;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.fine{
+    height: 30px;
+    width: 40px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.topFine{
+    height: 30px;
+    width: 40px;
+    border-top: 2px solid red;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.topNormal{
+    height: 30px;
+    width: 40px;
+    border-top: 5px solid red;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.topEpais{
+    height: 30px;
+    width: 40px;
+    border-top: 8px solid red;
+    border-radius: 3px;
+}
+
+.barrecoleur>:first-child{
+    width: 200px;
+   
+}
