@@ -5,6 +5,8 @@
 
 h1{
     text-align: center;
+    
+    border: 5px dotted  red;
 }
 .carreCouleur{
     width: 500px;
